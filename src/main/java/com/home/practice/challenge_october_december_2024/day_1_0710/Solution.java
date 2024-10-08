@@ -1,4 +1,4 @@
-package com.home.practice.challenge.day_1_0710;
+package com.home.practice.challenge_october_december_2024.day_1_0710;
 
 import java.util.HashMap;
 import java.util.Stack;
@@ -16,7 +16,7 @@ public class Solution {
    ***/
   public boolean isValid(String s) {
     Stack<Character> stack = new Stack<>();
-    HashMap<Character, Character> dic = new HashMap();
+    HashMap<Character, Character> dic = new HashMap<>();
     dic.put(')', '(');
     dic.put('}', '{');
     dic.put(']', '[');
